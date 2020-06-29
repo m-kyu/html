@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Ubuntu:wght@300;400&display=swap');
+
+/*
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+
+
+html,
+body {
+    /*    background:#dbe5f6;*/
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    display:inline-block;
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color:#b4ad9e;
+    text-transform: uppercase;
+}
+a:hover {
+    text-decoration: underline;
+    color:#333 !important;
+}
+a:visited {
+    color:#b4ad9e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+* {
+    font-size: 14px;
+    color: #626262;
+    line-height: 24px;
+    font-family: 'Lora', serif;
+}
+
+h2 {
+    font-size: 30px;
+    white-space: pre-line;
+    margin-bottom: 34px;
+    font-weight: 400;
+}
+
+small {
+    font-size: 1rem;
+    color: #b4ad9e;
+    line-height:4;
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.wC {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.mt130 {
+    margin-top: 130px !important;
+}
+
+.mt80 {
+    margin-top: 80px !important;
+}
+
+.mt50 {
+    margin-top: 50px !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+
+
+.f_after:after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.f_left{float:left;}
+.f_right{float:right;}
+
+
+
+/*-------------header----------------*/
+#header {
+    padding:70px 0;
+/*    background:#f00;*/
+}
+
+#header div {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+#header div:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#header div h1 {
+    float: left;
+}
+
+#header div h1 a {}
+
+#header div h1 a img {}
+
+#header div ul {
+    float: right;
+}
+
+#header div ul li {
+    float: left;
+}
+
+#header div ul li a {
+    padding:10px 40px;
+    display:inline-block;
+    font-family: 'Lora', serif;
+    color:#626262;
+}
+
+#header div ul li.active a{
+    text-decoration: underline;
+}
+
+
+
+/*---------------footer----------------*/
+#footer{
+    background:#f0f0f0;
+    padding:40px 0;
+}
+#footer div{position:relative;}
+#footer div p{
+    position:absolute;
+    right:0; top:0px;
+}
+#footer div p a{
+    display:inline-block;
+    width:17px; height:17px;
+    font-size:0;
+    background:url('../img/ic_sns.png') no-repeat;
+}
+#footer div p a:nth-of-type(1){
+    background-position: 6px 0;
+}
+#footer div p a:nth-of-type(2){
+    background-position: -26px 0;
+}
+#footer div p a:nth-of-type(3){
+    background-position: -60px 0;
+}
+
+
+
+
+
+
+
+
