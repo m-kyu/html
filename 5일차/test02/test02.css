@@ -1,0 +1,40 @@
+/*----- test02.css ------*/
+@import url('../common.css');
+
+.t_2{
+    width:1560px;
+    margin:0 auto;
+}
+.t_2 h2{
+    margin:20px 0;
+    text-align:center;
+}
+.t_2 ul{
+    
+}
+.t_2 ul::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.t_2 ul li{
+    width:500px;
+/*
+  display:inline-block;
+  vertical-align: top;
+*/
+    float:left;
+    margin:0 30px 30px 0; /*12 3 6 9*/
+}
+.t_2 ul li:nth-of-type(3n){
+    margin-right:0;
+}
+.t_2 ul li img{
+    width:100%;
+    vertical-align: top;
+}
+
+
+
+
+

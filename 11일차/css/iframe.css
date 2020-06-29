@@ -1,0 +1,40 @@
+@import url('common.css');
+
+.if{
+    width:1000px; margin:100px auto;
+}
+.if:after{
+    content:'';
+    clear:both;
+    display:block;    
+}
+.if div:first-child{
+    float:left;
+    width:560px;
+}
+.if div:last-child{
+    float:right;
+    width:400px;
+}
+.if div:last-child ul{}
+.if div:last-child ul li{
+/*    margin-bottom:20px;*/
+    padding:10px 0;
+    border-bottom:1px solid #000;
+}
+.if div:last-child ul li a{}
+.if div:last-child ul li a img{
+    width:20%;
+    vertical-align: middle;
+}
+.if div:last-child ul li a span{
+    vertical-align: middle;
+    display:inline-block;
+    width:70%;
+}
+
+
+
+
+
+

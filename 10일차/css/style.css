@@ -1,0 +1,165 @@
+@import url('common.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;700&display=swap');
+
+@import url('font/stylesheet.css');
+
+/*font-family: 'Noto Serif TC', serif; */
+
+
+#header {
+    padding:20px 0;
+    background:#fff;
+}
+#header > div{
+    width:1200px; margin: 0 auto;
+   
+    position:relative;
+}
+#header > div:after{
+    content:'';
+    clear:both;
+    display:block;
+    /*float썼을 경우에 이거는 거의 외워서 해도 된다..*/
+    
+}
+
+/*logo*/
+
+#header div h1{
+    float:left;
+}
+#header div h1 a{
+/*    font-family: 'Noto Serif TC', serif;*/
+    font-family: 'Brush Script MT';
+}
+
+
+/*menu*/
+
+#header > div div{
+    float:left;
+    width:80%;
+   
+    text-align: center;
+}
+#header > div div a{
+    display:inline-block;
+    padding:10px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+/*burger menu*/
+
+.menu-trigger {
+    position:absolute;
+    right:0; top:16px;
+    width:30px;
+    height:18px;
+    display:inline-block;
+    font-size:0;
+    
+}
+.menu-trigger span{
+    
+    width:100%;
+    display:inline-block;
+    height:2px;
+    background:#000;
+    margin:3px 0;
+   
+}
+.menu-trigger span:nth-of-type(1){}
+.menu-trigger span:nth-of-type(2){width:60%;}
+.menu-trigger span:nth-of-type(3){width:86%;}
+
+
+
+/*container*/
+
+#container{}
+#container .visual{
+    position:relative;
+}
+#container .visual > img{
+    width:100%;
+}
+
+/*중앙box*/
+
+#container .visual div{
+    width:780px;
+    padding:50px 60px;
+    background:#fff;
+    position:absolute;
+    left:calc(50% - 450px);
+    top:40%;
+}
+#container .visual div h2{}
+
+#container .visual div h2 span{
+    float:right;
+    vertical-align: right;
+    
+    font-size: 0;
+}
+
+#container .visual div h2 span a{
+            background:url('../img/ic_sns.png') no-repeat;
+            font-size:0;
+            width:15px; height: 15px;
+            display:inline-block;
+            margin:0 10px;
+        }
+        #container .visual div h2 span a:nth-last-of-type(2){
+            background-position: -33px 0;
+        }
+        #container .visual div h2 span a:nth-last-of-type(3){
+            background-position: -70px 0;
+        }
+
+
+#container .visual div p:nth-of-type(1){
+    margin-top: 100px;
+}
+#container .visual div p:nth-of-type(2){
+    white-space: pre-line;
+}
+
+#container .visual div p:nth-of-type(2) a{
+    font-family: font-family: 'Noto Serif TC', serif;
+    font-size: 18px;
+}
+
+#container .visual div p:nth-of-type(2) a b{
+     color:#000;
+    text-transform: uppercase;}
+    
+#container .visual div p:nth-of-type(2) a mark{
+    background:#fed38e;
+   
+    
+}
+
+
+/*footer*/
+
+#footer{
+    text-align: center;
+    padding:100px;
+    color:gray;}
+
+
+
+
+
+
+
+
+
+
+
+

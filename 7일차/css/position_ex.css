@@ -1,0 +1,31 @@
+@import url('common.css');
+
+.pos_ex1{
+    width:200px;
+    position:relative;
+}
+.pos_ex1 > img,
+.pos_ex1 ul{
+    position:absolute;
+    left:0; top:0;
+    width:100%;
+    z-index:2;
+}
+
+.pos_ex1 ul{
+    width:200%; font-size:0;
+    left:-100%;
+    transition:.5s;
+    z-index:1;
+}
+.pos_ex1:hover ul{
+    left:100%;
+}
+
+.pos_ex1 ul li{
+    display:inline-block;
+    width:50%;
+}
+.pos_ex1 ul li img{width:100%;}
+
+

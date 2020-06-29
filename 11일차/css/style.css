@@ -1,0 +1,91 @@
+@import url('common.css');
+
+.ex_1 {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.ex_1 h2 {margin:}
+
+.ex_1 > div {
+    border: 1px solid #000;
+    height: 300px;
+    position:relative;
+}
+
+.ex_1 > div div {
+    position:absolute;
+    left:0; top:calc(50% - 50px);
+    width:100%;
+    text-align:center;
+}
+.ex_1 > div div strong {
+    text-transform: uppercase;
+    font-size:2em;
+}
+.ex_1 > div div p {margin:10px 0;}
+
+.ex_1 > div div a {
+    display:inline-block;
+    padding:6px 30px;
+    border:1px solid #000;
+}
+
+/*ex_2*/
+.ex_2{
+    width:860px; margin:100px auto;
+}
+
+.ex_2 div{
+    border:1px solid #f00;
+}
+.ex_2 div:after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.ex_2 div p{
+    width:400px; height:200px;
+    border:1px solid #000;
+}
+.ex_2 div p:nth-of-type(1){
+    float:left;
+}
+.ex_2 div p:nth-of-type(2){
+    float:right;
+}
+
+
+
+.ex_3{width:400px; margin:100px auto;}
+.ex_3 h2{}
+.ex_3 div{
+    width:200px; height:200px;
+    position:relative;
+}
+.ex_3 div img{width:100%; height:100%;}
+.ex_3 div a{
+    position:absolute;
+    right:0; bottom:0;
+    
+    width:50px; height:50px;
+    background:rgba(0,0,0,0.4);
+    
+    color:#fff;
+    font-size:2em;
+    line-height:50px;
+    text-align:center;
+    
+    transition:.3s;
+}
+.ex_3 div:hover a{
+    width:100%; height:100%;
+    line-height:200px;
+}
+
+
+
+
+
+
+

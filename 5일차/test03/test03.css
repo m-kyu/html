@@ -1,0 +1,27 @@
+/*----- test03.css ------*/
+@import url('../common.css');
+
+.t_3{
+    width:1200px;
+    margin:0 auto;
+}
+.t_3 ul{}
+.t_3 ul li{
+    font-size:0;
+}
+.t_3 ul li img{width:40%;}
+.t_3 ul li span{
+    display:inline-block;
+    width:calc(60% - 40px);
+    font-size:16px;    
+    padding:0 20px;
+    white-space: pre-line;
+}
+.t_3 ul li span b{font-size:2em;}
+.t_3 ul li span small{}
+
+.t_3 ul li img,
+.t_3 ul li span{
+    vertical-align: middle;
+}
+

@@ -1,0 +1,68 @@
+@import url('common.css');
+
+.t_1{
+    border:1px solid #000;
+    border-collapse: collapse;
+    width:80%; 
+    margin:0 auto;
+    /*display:table;*/
+}
+.t_1 th,
+.t_1 td{
+    border:1px solid #000;
+}
+.t_1 tr:nth-of-type(2) td:first-child{
+    width:200px; height:100px;
+    color:#f00;
+}
+    
+
+
+
+/*==================t_2==============*/
+.t_2{
+    width:80%; margin:100px auto;
+    border-collapse: collapse;
+    
+}
+.t_2 th{
+    background:#000;
+    color:#fff;
+}
+.t_2 th,
+.t_2 td{
+    padding:12px 0;
+    border-bottom:1px solid #000;
+    text-align:center;
+}
+
+.t_2 td:nth-of-type(2) {
+    text-align:left;
+}
+.t_2 td:nth-of-type(2) p{
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    width:1000px;
+}
+
+
+.t_3{
+    border-spacing: 10px;
+    border-color:#ff0;
+}
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    

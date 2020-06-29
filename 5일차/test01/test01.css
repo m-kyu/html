@@ -1,0 +1,22 @@
+/*----- test01.css ------*/
+@import url('../common.css');
+
+
+.t_1{
+    width:500px;
+    margin:200px auto;
+    
+}
+.t_1 h2{
+    text-align:center;
+    margin:20px 0;
+    border:1px solid #f00;
+}
+.t_1 img{width:100%;}
+
+
+
+
+
+
+

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+<!--
+*block or inline 차이점
+ - block 
+   스타일 제약 없음, 
+   줄바꿈, 
+   가로 100%,
+   콘텐츠 세로 배열
+   
+ 
+ - inline 
+  스타일 제약 있음(width,height,margin,padding)
+  가로사이즈가 콘텐츠의 크기만큼 설정,
+  콘텐츠 가로 배열
+ 
+ - inline-block 
+   inline요소와 동일하나 스타일의 제약이 없음
+ 
+ 
+-->
+
+<style>
+    /* 내용을 포장함*/
+    div.a{ 
+        border:1px solid #f00;
+        width:600px;
+        text-align:center;
+    }
+    div.a h1{
+        color:#f00;
+        border:1px solid #000;
+        width:300px;
+
+        margin:0px; /*left,right,top,bottom*/
+        margin:0 auto; 
+        /*top&bottom, left&right*/
+        
+        margin:0 auto 0 auto;
+        /*12,3,6,9 (top,right,bottom,left)*/
+    }
+    div.a p{
+        font-size:24px;
+        margin-top:0;
+        margin-bottom:0;
+        line-height:1.6;
+    }
+    
+</style>
+
+
+<div class="a">
+   <h1>HTML</h1>
+   <p>
+       HTML block & inline <br>
+       HTML block & inline
+   </p>
+</div>
+
+
+<style>
+    
+</style>
+
+<div class="b">
+   <h1>HTML</h1>
+   <p>HTML block & inline</p>
+</div>
+
+
+<hr>
+
+<style>
+    hr{margin:100px 0;}
+    div.c{
+        border:1px solid #f00;
+        width:320px;
+        font-size:0;
+    }
+    div.c img{
+        width:100px;
+        margin-right:10px;
+    }
+/*div.c img.last{margin-right:0;}*/
+    div.c img:last-of-type{
+        margin-right:0;
+    }
+</style>
+
+<!--inline-->
+<div class="c">
+    <img src="../img/unnamed.jpg">
+    <img src="../img/unnamed.jpg"> 
+    <img src="../img/unnamed.jpg" class="last">
+</div>
+
+
+<style>
+    .d{ }
+    .d p{ 
+        width:100px; height:100px;
+        background:#ff0;
+        margin:100px;
+    }
+    .d span{
+        width:100px; height:100px;
+        background:#ff0;
+        margin:100px;
+        border:1px solid #f00;
+        display:inline-block;
+    }
+</style>
+
+<div class="d">
+    <p>
+        <a 
+            href="http://naver.com" 
+            target="_blank">
+                block
+        </a>
+    </p>
+    <p>block</p>
+    
+    <span>inline <br> inline</span>
+    <span>inline <br> inline</span>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+

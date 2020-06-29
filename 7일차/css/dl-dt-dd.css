@@ -1,0 +1,61 @@
+@import url('common.css');
+
+
+.dl_1{margin:0;}
+.dl_1 dt,
+.dl_1 dd{
+    margin:0;
+    display:inline-block;
+}
+.dl_1 dt:after{
+    content:':';
+    padding:0 20px;
+}
+
+
+
+
+.dl_2{margin:100px 0;}
+.dl_2 dt{
+    margin:50px 0 10px 0;
+}
+.dl_2 dt span{
+    display:inline-block;
+    vertical-align: middle;
+}
+.dl_2 dt span:first-of-type{
+    width:100px; height:80px; 
+    overflow:hidden;
+    border:1px solid #000;
+}
+.dl_2 dt span:first-of-type img{width:100%;}
+.dl_2 dt span:last-of-type{
+    white-space: pre-line;
+}
+
+
+
+.dl_2 dd{
+    margin:0;
+}
+.dl_2 dd:before{
+    content:'ㄴ';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
