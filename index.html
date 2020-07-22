@@ -2,146 +2,338 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF=8">
+    <title>대한민국 막걸리 페스티벌</title>
+
+    <link rel="icon" href="img/favicon.ico">
+
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
-    <div id="header">
-        <div>
-            <h1>
-                <a href="#">
-                    <img src="img/logo.gif" alt="">
-                </a>
-            </h1>
-            <ul>
-                <li><a href="#">lifestyle</a></li>
-                <li><a href="sub.html">photodiary</a></li>
-                <li><a href="#">music</a></li>
-                <li><a href="#">travel</a></li>
-            </ul>
-        </div>
-    </div>
+    <header>
+        <div class="hd">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
 
-    <div id="container">
-        <div class="visual wC">
-            <img src="img/img_visual.jpg" alt="">
+            <nav>
+                <ul>
+                    <li><a href="sub1-1.html">축제소개</a>
+                        <div>
+                            <a href="sub1-1.html">축제소개</a>
+                            <a href="sub1-2.html">인사말</a>
+                            <a href="sub1-3.html">오시는길</a>
+                        </div>
+                    </li>
+                    <li><a href="sub2-1.html">프로그램 안내</a>
+                        <div>
+                            <a href="sub2-1.html">행사일정</a>
+                            <a href="sub2-2.html">참가이벤트안내</a>
+                            <a href="sub2-3.html">참여업체</a>
+                        </div>
+
+                    </li>
+                    <li><a href="sub3-1.html">티켓예매</a>
+                        <div>
+                            <a href="sub3-1.html">티켓예매</a>
+                            <a href="sub3-2.html">참가이벤트신청</a>
+                        </div>
+                    </li>
+                    <li><a href="sub4-1.html">커뮤니티</a>
+                        <div>
+                            <a href="sub4-1.html">Q&A</a>
+                            <a href="sub4-2.html">공지사항</a>
+                            <a href="sub4-3.html">지난축제보기</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </nav>
+
         </div>
-        
-        <div class="wC">
-            <h2>
-                <small>photodiary</small>
-                The perfect weekend getaway
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-            </p>
-            <a href="#" class="mt20">
-                Leave a comment
+    </header>
+
+    <aside>
+
+        <select class="lang">
+            <option>ENG</option>
+            <option>KOR</option>
+        </select>
+
+        <div class="rt">
+
+            <a class="menu-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
             </a>
-        </div>
-        
-        <div class="wC mt80 blog-list">
-            <ul>
-                <li>
-                    <img src="img/img_blog01.jpg" alt="">
-                    <h2>
-                        <small>Lifestyle</small>
-                        More than just a music festival 
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                </li>
-                <li>
-                    <img src="img/img_blog02.jpg" alt="">
-                    <h2>
-                        <small>Lifestyle</small>
-                        More than just a music festival 
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                </li>
-                <li>
-                    <img src="img/img_blog03.jpg" alt="">
-                    <h2>
-                        <small>Lifestyle</small>
-                        More than just a music festival 
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                </li>
-                <li>
-                    <img src="img/img_blog04.jpg" alt="">
-                    <h2>
-                        <small>Lifestyle</small>
-                        More than just a music festival 
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="newsletter">
-            <h3>Sign up for our newsletter!</h3>
-            <form>
-                <p>
-                    <input 
-                    type="text" 
-                    placeholder="Enter a valid email address">
-                    <input type="submit">
-                </p>
-            </form>
-        </div>
-        
-        <div class="wC mt80 blog-list">
-            <ul>
-                <li>
-                    <img src="img/img_blog01.jpg" alt="">
-                    <h2>
-                        <small>Lifestyle</small>
-                        More than just a music festival 
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                </li>
-                <li>
-                    <img src="img/img_blog02.jpg" alt="">
-                    <h2>
-                        <small>Lifestyle</small>
-                        More than just a music festival 
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                </li>
-            </ul>
-        </div>
-    </div>
 
-    <div id="footer">
-        <div class="wC">
-            <a href="#">Terms and conditions</a>
-            <a href="#">Privacy</a>
-            <p>
-                Follow
-                <a href="#">facebook</a>
-                <a href="#">twitter</a>
-                <a href="#">instagram</a>
+            <div class="pop_up">
+                <div class="pop_up_">
+                    <a href="sub1-1.html" class="pop_up_title">축제소개</a>
+                    <span><a href="sub1-1.html">축제소개</a>
+                        <a href="sub1-2.html">인사말</a>
+                        <a href="sub1-3.html">오시는 길</a>
+                    </span>
+                </div>
+                <div class="pop_up_">
+                    <a href="sub2-1.html" class="pop_up_title">프로그램안내</a>
+                    <span><a href="sub2-1.html">행사 일정</a>
+                        <a href="sub2-2.html">참여 이벤트 안내</a>
+                        <a href="sub2-3.html">참여 업체</a>
+                    </span>
+                </div>
+                <div class="pop_up_">
+                    <a href="sub3-1.html" class="pop_up_title">티켓예매</a>
+                    <span><a href="sub3-1.html">티켓예매</a>
+                        <a href="sub3-2.html">이벤트 참가신청</a>
+                    </span>
+                </div>
+                <div class="pop_up_">
+                    <a href="sub4-1.html" class="pop_up_title">커뮤니티</a>
+                    <span><a href="sub4-1.html">Q & A</a>
+                        <a href="sub4-2.html">공지사항</a>
+                        <a href="sub4-3.html">지난축제보기</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup">
+            <div>
+                <div class="pop_ticket">
+                    <b>TICKET</b>
+                    <ul class="date">
+                        <li><a class="fday">
+                                2020.08.22
+                            </a></li>
+                        <li><a class="lday">
+                                2020.08.23
+                            </a></li>
+                    </ul>
+
+                    <div class="p_num">
+                        <a class="minus" id="minus">-</a>
+                        <span id="quantity">2</span>
+                        <a class="plus" id="plus">+</a>
+                    </div>
+
+                    <a>OK</a>
+                </div>
+
+
+                <ul class="sns">
+                    <li><a href="https://ko-kr.facebook.com/makfestival/" target="_blank"><img src="img/ic_fb.png" alt="facebook"></a></li>
+                    <li><a href="https://twitter.com/hashtag/%EB%A7%89%EA%B1%B8%EB%A6%AC%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C" target="_blank"><img src="img/ic_tw.png" alt="twitter"></a></li>
+                    <li><a href="https://www.instagram.com/accounts/login/?next=/p/Bn-kGaknWIF/" target="_blank"><img src="img/ic_ig.png" alt="instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="pop_top">
+            <p class="top">
+                <a href="#">TOP</a>
             </p>
         </div>
-    </div>
+    </aside>
+
+    <main>
+        <img class="spot" src="img/spot.jpg" alt="제 6회 대한만국 막걸리 페스티벌">
+
+
+        <section class="event">
+
+            <h2 class="sub">참여 이벤트 안내
+                <a href="sub2-2.html">VIEW MORE</a>
+            </h2>
+
+            <div class="info_event">
+
+                <article>
+
+                    <h3>EXIT</h3>
+                    <p>무더운 일상으로부터의 탈출</p>
+
+                    <figure>
+                        <img src="img/1-01.jpg" alt="디제잉쇼와 포퍼먼스">
+                        <figcaption>
+                            <h3>디제잉쇼 & 포퍼먼스</h3>
+                            <p>
+                                시원한 막걸리와
+                                멋진 뮤지션들의 공연을
+                                즐기며 도시로부터 탈출하세요</p>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article>
+
+                    <h3>ENERGY</h3>
+                    <p>당신의 에너지와 열정 </p>
+
+                    <figure>
+                        <img src="img/1-02.jpg" alt="막걸리 물총 서바이벌">
+                        <figcaption>
+                            <h3>막걸리 물총 서바이벌</h3>
+                            <p>
+                                넘치는 당신의 에너지를 표현하여
+                                막걸리를 가득 채운 물총과 함께
+                                열정적인 플레이어가 되어보세요
+                            </p>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article>
+
+                    <h3>EXPERIENCE</h3>
+                    <p>당신을 기다리는 새로운 경험</p>
+
+                    <figure>
+                        <img src="img/1-03.jpg" alt="캠핑존">
+                        <figcaption>
+
+                            <h3>막걸리와 함께하는 감성캠핑</h3>
+                            <p>
+                                열정이 넘쳤던 하루를
+                                시원한 막걸리와 함께하는
+                                감성 캠핑으로 마무리해보세요</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+
+        <section class="ex">
+
+            <h2 class="sub">지난 행사 보기
+                <a href="sub4-3.html">VIEW MORE</a>
+            </h2>
+
+            <div class="vdo">
+                <video width="100%" controls autoplay loop muted>
+                    <source src="img/vdo.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </section>
+
+        <section class="commu">
+            <h2 class="sub">커뮤니티</h2>
+
+
+            <div class="com_link">
+
+                <figure class="link">
+                    <a href="sub4-3.html">
+                        <article>
+                            <img src="img/ic_gallery.png" alt="gallery">
+                            <h3>축제 갤러리</h3>
+                            <p>대한민국 막걸리 페스티벌의
+                                사진을 구경해보세요!</p>
+                        </article>
+                    </a>
+                </figure>
+
+                <figure class="link">
+                    <a href="sub1-3.html">
+                        <article>
+                            <img src="img/ic_transport.png" alt="transport">
+                            <h3>교통 안내</h3>
+                            <p>경기도 가평군 가평읍 달전리
+                                1-1
+                            </p>
+                        </article>
+                    </a>
+                </figure>
+
+                <figure class="link">
+
+                    <a href="https://www.gptour.go.kr" target="_blank">
+                        <div>
+                            <img src="img/ic_tour.png" alt="gallery">
+
+                            <div class="com_03">
+                                <h3>주변 관광</h3>
+                                <p>주변의 볼거리를 추천해드려요!
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://hotel.naver.com/hotels/list?destination=place:Gapyeong&destination_kor=%EA%B0%80%ED%8F%89%EA%B5%B0&nxQuery=%EA%B0%80%ED%8F%89%EC%88%99%EC%86%8C&propertyTypes=0%7C7" target="_blank">
+                        <div>
+                            <img src="img/ic_restau.png" t="gallery">
+
+                            <div class="com_03">
+                                <h3>맛집과 숙박</h3>
+                                <p>지역의 맛집과 숙박을
+                                    추천해드려요!</p>
+                            </div>
+                        </div>
+                    </a>
+                </figure>
+
+            </div>
+
+
+        </section>
+
+        <script>
+            const menu = document.querySelector('.menu-trigger');
+            const sitemap = document.querySelector('.pop_up');
+            const date_select = document.querySelectorAll('.date li a');
+
+            menu.addEventListener('click', function() {
+                menu.classList.toggle('active');
+            });
+
+            let j = 0;
+            for (let i = 0; i < date_select.length; i++) {
+                date_select[i].addEventListener('click', function() {
+                    date_select[j].classList.remove('active');
+                    date_select[i].classList.add('active');
+                    j = i;
+                })
+            }
+
+            var k = 0;
+            var plus = document.getElementById('plus');
+            var minus = document.getElementById('minus')
+            var quantity = document.getElementById('quantity');
+            plus.addEventListener('click', function() {
+                if (k < 9) {
+                    k += 1;
+                    quantity.textContent = k;
+                }
+            });
+
+            minus.addEventListener('click', function() {
+                k -= 1;
+                if (k <= 0) {
+                    k = 0;
+                }
+                quantity.textContent = k;
+            })
+        </script>
+
+    </main>
+
+
+    <footer>
+
+        <p>회사소개이용약관개인정보취급방침
+
+            상호 : 대한민국 막걸리축제 사업장주소 : 고양시 덕양구 고양시청로 16-5 유림빌딩 201호 대표자 : 안재성 대표안내전화 : 031-967-3131 FAX : 070-8119-3131 개인정보보호책임자 : 안재성 사업자번호 : 000-0000-0000
+
+            <span>COPYRIGHT © 대한민국 막걸리축제 / all rights reserved.</span>
+
+        </p>
+
+    </footer>
 
 
 
-
-</body>
-
-</html>
+</body></html>
