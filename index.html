@@ -1,68 +1,35 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- 오픈그래프 -->
-        <meta property="og:title" content="Main Page"> 
-        <meta property="og:url" content=""> 
-        <meta property="og:type" content="website"> 
-        <meta property="og:image" content=""> 
-        <meta property="og:site_name" content=""> 
-        <meta property="og:description" content=""> 
-    
-        <title>NSAD*</title>
-        <!-- 파비콘 -->
-        <link rel="shirtcut icon" href="./img/logo_s_yc8_icon.ico">
-        <!-- style -->
-        <link rel="stylesheet" href="css/index.css">
-
-        <link rel="manifest" href="./manifest.json">
-        <link rel="apple-touch-icon" href="./icons/apple-touch-icon-152x152.png" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <meta name="apple-mobile-web-app-title" content="NSAD" />
-        <meta name="description" content="NSAD상세내용" />
-        <meta name="theme-color" content="#f1718c" />
-
-        <!-- script -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-        <script defer src="js/incom.js"></script>
-        <script defer src="js/index.js"></script>
-        
+    <title>Document</title>
 </head>
 <body>
-    <main>
-        <div class="slide-1">
-            <p class="s1-nav">
-                <span>01</span>
-                <span><span></span></span>
-                <span>03</span>
-            </p>
-            <p class="more">
-                <a href="#">view more</a>
-            </p>
-            <div class="s1-img">
-                <img src="./img/main/main1-1.jpg" alt="">
-            </div>
-        </div>
-        <div class="slide-2">
-            <div class="s2-img">
-                <img src="./img/main/main2-1.jpg" alt="">
-            </div>
-            <p class="s2-nav"><span></span></span></p>
-        </div>
-    </main>
+<!-- iframe_board.html -->
 
-    
-    <script>
-        if ("serviceWorker" in navigator) {
-            window.addEventListener("load", () => {
-                navigator.serviceWorker.register("./service-worker.js");
-            });
-        }
-    </script>
+
+
+<!-- header -->
+
+<iframe 
+    id="ifr"
+    src="http://mkyu.dothome.co.kr/bbs/board.php?bo_table=free" 
+    width="800" height="1000" frameborder="no" scrolling="no">
+</iframe>
+
+<footer>copyright</footer>
+
+<script>
+    window.addEventListener('message',function(e){
+        ifr.style.height=`${e.data.height + 50}px`;
+    });
+</script>
+
+
+
+
+
 </body>
 </html>
