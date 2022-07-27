@@ -12,19 +12,28 @@
 
 
 <!-- header -->
+<div id="board">
 
-<iframe 
-    id="ifr"
-    src="http://mkyu.dothome.co.kr/bbs/board.php?bo_table=free" 
-    width="800" height="1000" frameborder="no" scrolling="no">
-</iframe>
+</div>
 
 <footer>copyright</footer>
 
 <script>
-    window.addEventListener('message',function(e){
-        ifr.style.height=`${e.data.height + 50}px`;
-    });
+    window.addEventListener('load',function(){
+        setTimeout(function(){
+
+        
+            board.innerHTML = `<iframe 
+                                    id="ifr"
+                                    src="http://mkyu.dothome.co.kr/bbs/board.php?bo_table=free" 
+                                    width="800" height="1000" frameborder="no" scrolling="no">
+                                </iframe>`;
+
+            window.addEventListener('message',function(e){
+                ifr.style.height=`${e.data.height + 50}px`;
+            });
+        },1000)
+    })
 </script>
 
 
